@@ -16,12 +16,12 @@ const About = () => {
         
         <div className="about-content">
           <h2 className="section-title">La visión detrás del lente</h2>
-          <p className="about-subtitle">Mi nombre es Lucía, y mi pasión es detener el tiempo.</p>
+          <p className="about-subtitle">Mi nombre es Yhadira, y mi pasion es detener el tiempo.</p>
           
           <div className="about-text">
             <p>
-              Con más de 7 años de experiencia profesional, me especializo en fotografía de modelaje, 
-              bodas y maternidad. Cada sesión es una experiencia única donde busco retratar la 
+              Con más de 3 años de experiencia profesional, me especializo en fotografía de individual, 
+              bodas, eventos y maternidad. Cada sesión es una experiencia única donde busco retratar la 
               esencia y la naturalidad de cada persona.
             </p>
             <p>

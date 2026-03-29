@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="container footer-container">
         <div className="footer-brand">
-          <h2>LUCÍA.PHOTO</h2>
+          <h2>Fotografia Pinino</h2>
           <p>Fotografía Profesional. Capturando la esencia natural en cada momento.</p>
         </div>
         

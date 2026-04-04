@@ -5,7 +5,7 @@ import './WhatsAppCTA.css';
 const WhatsAppCTA = () => {
   return (
     <a 
-      href='https://wa.me/51987654321' 
+      href='https://wa.me/51910836276' 
       className="whatsapp-cta" 
       target="_blank" 
       rel="noreferrer"

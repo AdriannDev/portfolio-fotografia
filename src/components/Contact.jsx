@@ -28,6 +28,7 @@ const Contact = () => {
         setResult("Hubo un error al enviar el mensaje. Intenta nuevamente.");
       }
     } catch (error) {
+      console.log("Error", error);
       setResult("Ocurrió un error de conexión.");
     }
   };

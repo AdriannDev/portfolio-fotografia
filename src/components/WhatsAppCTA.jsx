@@ -5,7 +5,6 @@ const WhatsAppCTA = () => {
   const numero = "51910836276";
   const mensaje = "Hola, me gustaria mayor informacion sobre los servicios de fotografia";
   
-  // encodeURIComponent transforma los espacios y comas en formato URL válido
   const urlWhatsApp = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
 
   return (

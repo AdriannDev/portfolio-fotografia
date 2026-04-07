@@ -17,7 +17,7 @@ const Navbar = () => {
     <header className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
         <div className="logo">
-          <a href="#home">Fotografia Pinino</a>
+          <a href="#home">Yhadira Bustamante Fotografia</a>
         </div>
         
         <button className="mobile-toggle" onClick={() => setMenuOpen(!menuOpen)}>

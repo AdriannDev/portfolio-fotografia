@@ -12,8 +12,8 @@ const Hero = () => {
       </div>
       
       <div className="hero-content">
-        <h2 className="hero-subtitle">CAPTURANDO LA ESENCIA</h2>
-        <h1 className="hero-title">Elegancia<br/>Atemporal</h1>
+        <h2 className="hero-subtitle">CAPTURANDO MOMENTOS</h2>
+        <h1 className="hero-title">Unicos y<br/>Especiales</h1>
         
         <div className="hero-actions">
           <a href="#contact" className="btn-primary">Reservar Sesión</a>

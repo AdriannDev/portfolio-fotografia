@@ -15,7 +15,7 @@ const Portfolio = () => {
   useEffect(() => {
     const fetchPortfolio = async () => {
       try {
-        const query = '*[_type == "portfolioItem"] | order(_createdAt desc)';
+        const query = '*[_type == "portfolioItem"] | order(orderRank)';
         const sanityData = await client.fetch(query);
         setPortfolioData(sanityData);
       } catch (error) {

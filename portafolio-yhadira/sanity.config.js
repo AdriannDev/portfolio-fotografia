@@ -3,6 +3,8 @@ import {structureTool} from 'sanity/structure'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemaTypes'
 
+import {orderableDocumentListDeskItem} from '@sanity/orderable-document-list'
+
 export default defineConfig({
   name: 'default',
   title: 'Portafolio Yhadira',
@@ -10,7 +12,23 @@ export default defineConfig({
   projectId: 'hrh6pht8',
   dataset: 'production',
 
-  plugins: [structureTool(), visionTool()],
+  plugins: [
+    structureTool({
+      structure: (S, context) => {
+        return S.list()
+          .title('Contenido')
+          .items([
+            orderableDocumentListDeskItem({
+              type: 'portfolioItem',
+              title: 'Proyectos & Álbumes',
+              S,
+              context,
+            }),
+          ])
+      },
+    }),
+    visionTool(),
+  ],
 
   schema: {
     types: schemaTypes,

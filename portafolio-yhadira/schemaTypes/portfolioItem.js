@@ -1,8 +1,12 @@
+import {orderRankField, orderRankOrdering} from '@sanity/orderable-document-list'
+
 export default {
     name: 'portfolioItem',
     title: 'Proyecto de Portafolio',
     type: 'document',
+    orderings: [orderRankOrdering],
     fields: [
+      orderRankField({ type: 'portfolioItem' }),
       {
         name: 'title',
         title: 'Título del Proyecto',

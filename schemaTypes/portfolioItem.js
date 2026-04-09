@@ -20,6 +20,7 @@ export default {
             { title: 'Bodas y Recepciones', value: 'Bodas' },
             { title: 'Maternidad', value: 'Maternidad' },
             { title: 'Eventos Especiales', value: 'Eventos' },
+            { title: 'Bautizos', value: 'Bautizos'},
           ],
           layout: 'radio',
         },

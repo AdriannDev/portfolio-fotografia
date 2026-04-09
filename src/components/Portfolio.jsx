@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Portfolio.css';
 import { client, urlFor } from '../sanityClient';
 
-const categories = ['Todos', 'Sesiones', 'Bodas', 'Maternidad', 'Eventos'];
+const categories = ['Todos', 'Sesiones', 'Bodas', 'Maternidad', 'Eventos', 'Bautizos'];
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState('Todos');

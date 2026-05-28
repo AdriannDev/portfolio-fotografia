@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import retrato from '../assets/fotografia-retrato.webp';
 
 
 const About = () => {
@@ -8,7 +9,7 @@ const About = () => {
       <div className="container about-container">
         <div className="about-image-wrapper">
           <img 
-            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80" 
+            src={retrato} 
             alt="Retrato de la fotógrafa" 
             className="about-image"
           />

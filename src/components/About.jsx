@@ -21,14 +21,10 @@ const About = () => {
           
           <div className="about-text">
             <p>
-              Con más de 3 años de experiencia profesional, me especializo en fotografía de individual, 
-              bodas, eventos y maternidad. Cada sesión es una experiencia única donde busco retratar la 
-              esencia y la naturalidad de cada persona.
+              Con más de 3 años de experiencia, me especializo en fotografía de personas, bodas, eventos y maternidad. Cada sesión es una experiencia única donde busco retratar la esencia y la naturalidad de cada persona.
             </p>
             <p>
-              Mi enfoque minimalista e íntimo busca dejar de lado las poses artificiales para enfocarse
-              en la conexión real. Creo que las mejores fotografías son aquellas que, al verlas años 
-              después, te hacen revivir exactamente la emoción de ese momento.
+              Mi enfoque es dejar de lado las poses artificiales para enfocarme en la conexión real. Creo que las mejores fotografías son aquellas que, al verlas años después, te hacen revivir exactamente la emoción de ese momento.
             </p>
           </div>
           

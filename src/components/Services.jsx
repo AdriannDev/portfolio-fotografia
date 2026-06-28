@@ -12,7 +12,7 @@ const servicesSet = [
   },
   {
     title: 'Bodas & Eventos',
-    description: 'Cobertura documental completa de tu día especial. Desde los preparativos hasta la fiesta. Se entrega galería online privada con +120 fotos.',
+    description: 'Cobertura fotografica completa del evento. Se capturaran todos los momentos mas importantes. Se entrega galería online con las fotos editadas en alta resolución.',
   }
 ];
 

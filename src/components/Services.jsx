@@ -4,7 +4,7 @@ import './Services.css';
 const servicesSet = [
   {
     title: 'Sesiones Individuales / Pareja',
-    description: 'Sesión individual de 2 horas en estudio o exteriores. Incluye dirección creativa, 2 cambios de outfit y 15 fotografías editadas en alta resolución.',
+    description: 'Sesión individual de 1 horas en estudio o exteriores. Incluye dirección creativa, 2 cambios de outfit y 15 fotografías editadas en alta resolución.',
   },
   {
     title: 'Maternidad',
